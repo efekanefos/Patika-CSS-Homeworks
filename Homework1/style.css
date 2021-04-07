@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Bangers&display=swap");
+
+.title,
+.middle-title {
+  font-family: "Bangers", cursive;
+  letter-spacing: 1.5px;
+}
+.title {
+  color: red;
+  text-align: center;
+}
+.menu {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding-left: 0;
+}
+.menu li {
+  padding-right: 15px;
+}
+.middle-title {
+  color: purple;
+  text-align: center;
+}
+
+.info {
+  text-align: center;
+}
+.bottom-title {
+  color: blueviolet;
+  text-align: center;
+}
+.bottom-menu {
+  text-align: center;
+  list-style-position: inside;
+  padding-left: 0;
+}
+.pizza-img {
+  width: 300px;
+}
+.pizza-menu {
+  text-align: center;
+  list-style: none;
+  padding-left: 0;
+}
+.pizza-menu li {
+  list-style-position: inside;
+}
