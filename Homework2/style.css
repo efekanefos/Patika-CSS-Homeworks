@@ -1,0 +1,152 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+.appbtn {
+  width: 1rem;
+  fill: gray;
+  padding-right: 16px;
+}
+svg {
+  margin-top: -15px;
+}
+.appbtn:hover {
+  fill: black;
+}
+.link {
+  padding-right: 16px;
+}
+.menulist {
+  display: inline;
+  list-style: none;
+  float: right;
+  margin-right: -3px;
+}
+.menulist1 {
+  position: absolute;
+  display: flex;
+  list-style: none;
+}
+.menulist1 li {
+  padding-right: 30px;
+  font-size: 13px;
+  float: left;
+  color: gray;
+  margin-left: -15px;
+}
+.menulist li a,
+.menulist1 li a,
+.bottomlist li a,
+.bottomlist1 li a {
+  text-decoration: none;
+  color: gray;
+  padding-right: 10px;
+}
+.menulist li a:hover,
+.menulist1 li a:hover,
+.bottomlist li a:hover,
+.bottomlist1 li a:hover {
+  text-decoration: underline;
+}
+.menulist li {
+  padding-right: 25px;
+}
+.profile {
+  width: 2rem;
+  border-radius: 1.5rem;
+  vertical-align: middle !important;
+}
+#logo {
+  display: block;
+  width: 272px;
+  height: 92px;
+  position: absolute;
+  top: 20%;
+  left: 40%;
+}
+
+.searchField {
+  width: 560px;
+  border: 1px rgb(202, 202, 202) solid;
+  border-radius: 50px;
+  position: absolute;
+  top: 40%;
+  left: 29%;
+}
+.searchField:hover {
+  box-shadow: 2px 2px 10px #dfe1e5;
+}
+.searchIcon {
+  padding-left: 15px;
+  padding-right: 10px;
+  color: rgb(177, 177, 177);
+}
+#search {
+  width: 480px;
+  height: 40px;
+  outline: none;
+  border: none;
+}
+.voice {
+  width: 1.8rem;
+  vertical-align: middle;
+}
+.buttons {
+  position: absolute;
+  top: 50%;
+  left: 41.5%;
+}
+button {
+  height: 36px;
+  border: 1px solid #f2f2f2;
+  color: #5f6368;
+  font-size: 14px;
+  margin-top: 5px;
+  margin-right: 20px;
+  border-radius: 5px;
+}
+button:hover {
+  box-shadow: 2px 2px 5px #dfe1e5;
+}
+.footerField {
+  position: absolute;
+  bottom: 0;
+  background-color: #f2f2f2;
+  width: 100%;
+  margin-left: -10px;
+}
+.bottomlist,
+.bottomlist1 {
+  display: inline-block;
+  list-style: none;
+}
+
+.bottomlist {
+  margin-left: -20px;
+  float: left;
+}
+.bottomlist1 {
+  float: right;
+  margin-right: 15px;
+}
+@media (max-width: 768px) {
+  #logo {
+    position: absolute;
+    top: 25%;
+    left: 25%;
+  }
+  .searchField {
+    width: 300px;
+    border: 1px gray solid;
+    border-radius: 50px;
+    position: absolute;
+    top: 41.5%;
+    left: 20%;
+  }
+  #search {
+    width: 220px;
+    height: 40px;
+    outline: none;
+    border: none;
+  }
+}
